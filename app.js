@@ -35,5 +35,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(port, () => {
-  logger.info(`Servidor em execucao na porta ${process.env.PORT}`);
+  logger.info(`Servidor em execucao na porta ${port}`);
 });

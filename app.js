@@ -19,7 +19,7 @@ import { db } from './models/index.js';
     process.exit();
   }
 })();
-const port = process.env.PORT || 8081
+const port = Number(process.env.PORT || 8081)
 const app = express();
 
 //define o dominio de origem para consumo do servico
